@@ -1,0 +1,21 @@
+﻿<Window x:Class="testSport.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:testSport"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="100"></RowDefinition>
+            <RowDefinition Height="auto"></RowDefinition>
+        </Grid.RowDefinitions>
+        <Border Background="Aqua">
+            <Button VerticalAlignment="Center" HorizontalAlignment="Right" Click="autorClick">авторизация</Button>
+        </Border>
+        <TextBlock VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="36" FontWeight="Bold">ООО-РУЛЬ</TextBlock>
+        <Image Source="/Res/СПОРТ1.png" VerticalAlignment="Center" HorizontalAlignment="Left" />
+
+    </Grid>
+</Window>
